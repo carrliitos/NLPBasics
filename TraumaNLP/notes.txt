@@ -1,0 +1,9 @@
+Sample dataset: NLPBasics/corpus/testCorporaNER2.csv
+The sample dataset consists of the following tags:
+    - PI = Primary Issues
+    - Goal
+    - IM = Imaging Method
+    - SurgicalProcedure
+    - SurgicalPrep
+    - SurgicalDiscussion
+    - SurgicalLocation
