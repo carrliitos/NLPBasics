@@ -5,14 +5,11 @@ The sample dataset consists of the following tags:
 	- IM = Imaging Method
 	- SurgicalProcedure
 	- SurgicalPrep
-	- SurgicalLocation
 
 Tags:
 	- O = outside
 	- B-PI = Primary Issues
 	- B-GOAL
 	- B-IM = Imaging Methods
-	- B-SProc = Surgical Procedures
-	- B-SPrep = Surgical Prep
-	- B-SD = Sugical Discussiob
-	- B-SLoc = Surgical Location
+	- B-SurgicalProcedure
+	- B-SurgicalPreparation
