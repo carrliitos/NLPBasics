@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # coding: utf8
 
+# To execute:
+# $ python customNERspaCy.py -m=en -o=path/to/output/directory -n=1000
+
 # Training additional entity types using spaCy
 from __future__ import unicode_literals, print_function
 import pickle
