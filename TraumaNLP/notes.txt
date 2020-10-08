@@ -1,9 +1,21 @@
-Sample dataset: NLPBasics/corpus/testCorporaNER2.csv
+Sample dataset: NLPBasics/TraumaNLP/corporaNER3.csv
 The sample dataset consists of the following tags:
-    - PI = Primary Issues
-    - Goal
-    - IM = Imaging Method
-    - SurgicalProcedure
-    - SurgicalPrep
-    - SurgicalDiscussion
-    - SurgicalLocation
+	- PI = Primary Issues
+	- Goal
+	- IM = Imaging Method
+	- SurgicalProcedure
+	- SurgicalPrep
+	- SurgicalDiscussion
+	- SurgicalLocation
+
+Tags:
+	- O = outside
+	- B-PI = Primary Issues
+	- B-GOAL
+	- B-IM = Imaging Methods
+	- B-SProc = Surgical Procedures
+	- B-SPrep = Surgical Prep
+	- B-SD = Sugical Discussiob
+	- B-SLoc = Surgical Location
+
+List of all values for each tags can be found here: NLPBasics/TraumaNLP/values.csv
