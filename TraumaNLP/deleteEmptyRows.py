@@ -2,8 +2,8 @@
 
 import csv
 
-inputCSV = "NER3.csv"
-outputCSV = "corporaNER3.csv"
+inputCSV = "annotate/SurgicalProcedure.csv"
+outputCSV = "annotate/SurgicalProcedure2.csv"
 
 with open(inputCSV) as in_file:
 	with open(outputCSV, 'w') as out_file:

@@ -17,5 +17,3 @@ Tags:
 	- B-SPrep = Surgical Prep
 	- B-SD = Sugical Discussiob
 	- B-SLoc = Surgical Location
-
-List of all values for each tags can be found here: NLPBasics/TraumaNLP/values.csv
