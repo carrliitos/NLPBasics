@@ -1,4 +1,8 @@
 # Convert json file to spaCy format.
+
+# To run: 
+# $ python jsonTOspaCy.py -i <input file> -o <output file>
+
 import plac
 import logging
 import argparse
@@ -28,7 +32,6 @@ def main(input_file=None, output_file=None):
 
 				for label in labels:
 					entities.append((point['start'], point['end'] + 1 ,label))
-
 
 			training_data.append((text, {"entities" : entities}))
 

@@ -2,7 +2,7 @@
 # coding: utf8
 
 # To execute:
-# $ python customNERspaCy.py -m=en -o=path/to/output/directory -n=1000
+# $ python customNERspaCy.py -m=en -nm=UWW_NER_TRAUMA_MODEL -o=path/to/output/directory -n=1000
 
 # Training additional entity types using spaCy
 from __future__ import unicode_literals, print_function
@@ -16,10 +16,10 @@ from spacy.util import minibatch, compounding
 
 # New entity labels
 # Specify the new entity labels which you want to add here
-LABEL = ['O', 'B-PI', 'B-GOAL', 'B-IM', 'B-SurgicalProcedure', 'B-SurgicalPrep', 'B-SurgicalLocation', 'B-SurgicalDiscussion']
+LABEL = ['O', 'B-PI', 'B-GOAL', 'B-IM', 'B-SurgicalProcedure', 'B-SurgicalPreparation']
 
 # Loading training data 
-with open ('testCorporaNER2', 'rb') as fp:
+with open ('UWW_NER', 'rb') as fp:
 	TRAIN_DATA = pickle.load(fp)
 
 @plac.annotations(

@@ -1,4 +1,5 @@
 # Convert .tsv file to dataturks json format. 
+
 import json
 import logging
 import sys
@@ -62,4 +63,4 @@ def tsv_to_json_format(input_path,output_path,unknown_label):
 		logging.exception("Unable to process file" + "\n" + "error = " + str(e))
 		return None
 
-tsv_to_json_format("testCorporaNER2.tsv", "testCorporaNER2.json", 'abc')
+tsv_to_json_format("UWW_NER.tsv", "UWW_NER.json", 'abc')
